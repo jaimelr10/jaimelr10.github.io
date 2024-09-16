@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+
+import AppBar from './components/AppBar';
+import { MyLinks } from './components/CardContent/MyLinks';
+import Card from './components/CvCard';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AppBar/>
+    <div style={{ display: 'flex', justifyContent: 'space-around', width: '100%' }}>
+      <Card title={"My Links⚓"} modalContent={
+       <MyLinks/>
+      }/>
+      <Card title={"Working Experience 💻"} content={
+        <></>
+      }/>
+      <Card title={"Education 👨‍🎓"} content={
+        <></>
+      }/>
+    </div>
+    <div style={{ display: 'flex', justifyContent: 'space-around', width: '100%' }}>
+      <Card title={"About me 🧔"} content={
+        <></>
+      }/>
+    </div>
+
     </div>
   );
 }
