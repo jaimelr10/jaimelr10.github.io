@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.b46ab269.css",
-    "main.js": "/static/js/main.9ef55ea8.js",
+    "main.js": "/static/js/main.98370619.js",
     "static/media/me.png": "/static/media/me.01f7a937eb9793b6ec1e.png",
     "static/media/cirebitsLogo.png": "/static/media/cirebitsLogo.9df8d1a814f1f88d8780.png",
     "static/media/playsotre.png": "/static/media/playsotre.be5f794ce26995268470.png",
     "static/media/linkedin.png": "/static/media/linkedin.41d332e05cc6b0470fec.png",
     "index.html": "/index.html",
     "main.b46ab269.css.map": "/static/css/main.b46ab269.css.map",
-    "main.9ef55ea8.js.map": "/static/js/main.9ef55ea8.js.map"
+    "main.98370619.js.map": "/static/js/main.98370619.js.map"
   },
   "entrypoints": [
     "static/css/main.b46ab269.css",
-    "static/js/main.9ef55ea8.js"
+    "static/js/main.98370619.js"
   ]
 }
