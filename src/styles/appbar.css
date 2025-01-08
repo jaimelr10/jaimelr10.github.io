@@ -1,0 +1,60 @@
+.appbar {
+    background-color: #333333;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.appbar h1 {
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.appbar h2 {
+    color: white;
+    padding-bottom: 1rem;
+
+}
+
+.navbar > ul {
+    padding-top: 0rem;
+    margin-top: 0rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul li {
+    list-style: none;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    margin: 0rem 0.5rem;
+ }
+ 
+.navbar ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.navbar ul li:has(>  a:not(.active)):hover {
+    background-color:darkgrey;
+    color: white;
+}
+
+.navbar ul li:has(> a[class="active"])  {
+    background-color: white;
+}
+
+.navbar ul li a[class="active"] {
+    color: black;
+}
+
+.navbar ul li:has(> a[class="active"]):hover  {
+    background-color: white;
+}

@@ -1,29 +1,21 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+import '../styles/appbar.css'
 
-const AppBarContainer = `
-  background-color: #333;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-`;
-
-const AppBar = () => {
-    const appBarStyle = {
-        backgroundColor: '#333',
-        color: 'white',
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        padding: '1rem',
-      };
-    
+const AppBar = () => {   
   return (
-    <header style={appBarStyle} >
+    <div className={"appbar"} >
       <h1>Jaime León Rosado</h1>
+      <div className={"navbar"}>
+        <ul>
+          <li><NavLink to="/" >My Life</NavLink></li>
+          <li><NavLink to="/career" >Career</NavLink></li>
+          <li><NavLink to="/education" >Education</NavLink></li>
+          <li><NavLink to="/contact" >Contact</NavLink></li>
+        </ul>
+      </div>
       <h2>Software Engineer</h2>
-    </header>
+    </div>
   );
 };
 

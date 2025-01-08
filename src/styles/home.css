@@ -1,0 +1,10 @@
+.container {
+    margin: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.myPic {
+    height: 300px;
+    border-radius: 32px;
+}

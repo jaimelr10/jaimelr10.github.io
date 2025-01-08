@@ -1,0 +1,28 @@
+.educationBox {
+    margin: 2rem;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+
+.title {
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.title h1 {
+    padding-right: 1rem;
+}
+
+.subtitle {
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.subtitle h2 {
+    padding-right: 1rem;
+}
+
+.subtitle h5 {
+    padding-right: 1rem;
+}

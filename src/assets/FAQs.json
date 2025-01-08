@@ -1,0 +1,16 @@
+[{
+    "question": "Who am I?",
+    "answer": "I'm Jaime, a young software engineer born in Tomelloso and based in Madrid. I've been a software engineer since July 2022 although I started working on the IT industry 7 months before.",
+    "open": true
+},
+{
+    "question": "What do I do for a living?",
+    "answer": "Right now I'm a FullStack Software Engineer working with APIs at Liferay in Madrid (Spain)",
+    "open": false
+},
+{
+    "question":
+        "What do I do in my spare time?",
+    "answer": "I play handball, bottlecap soccer, manage my personal finances and travel. I've been to Portugal, France, Belgium, The Netherlands and lots of places among Spain",
+    "open": false
+}]
